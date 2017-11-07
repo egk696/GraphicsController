@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/chris/OneDrive/HW_Projects/FuncGen/VHDL Files
+Espi_slave
+Z0 w1501189424
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/Modelsim
+Z6 8C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/SPI_Slave.vhd
+Z7 FC:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/SPI_Slave.vhd
+l0
+L7
+V8XCo0QLWjdUHmjlO6khBh0
+!s100 ;jDk`h03z@U;j1=eCOLkW1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1501189492
+!i10b 1
+Z10 !s108 1501189491.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/SPI_Slave.vhd|
+Z12 !s107 C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/SPI_Slave.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+R4
+Z15 DEx4 work 9 spi_slave 0 22 8XCo0QLWjdUHmjlO6khBh0
+l62
+L27
+VQRj`i8cck1]RlU=_<4TmF2
+!s100 gVbg;HZc0dz2JED0Ka>b<3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etb
+Z16 w1501187878
+R2
+R3
+R4
+R5
+Z17 8C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/Modelsim/SPI_slave_testbench.vhd
+Z18 FC:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/Modelsim/SPI_slave_testbench.vhd
+l0
+L6
+Vn54V>Q2dc2fX[VkRYFTfl1
+!s100 lYgH=PB^Zza@Uo]Md3SdA3
+R8
+32
+Z19 !s110 1501187886
+!i10b 1
+Z20 !s108 1501187886.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/Modelsim/SPI_slave_testbench.vhd|
+Z22 !s107 C:/Users/chris/OneDrive/HW_Projects/MicroGPU(ish)/HWProject/Codebase/SPI/Modelsim/SPI_slave_testbench.vhd|
+!i113 1
+R13
+R14
+Abehave
+R1
+R15
+R2
+R3
+R4
+DEx4 work 2 tb 0 22 n54V>Q2dc2fX[VkRYFTfl1
+l44
+L9
+VlTgLZf<[I[hz6ez7@ZMZF0
+!s100 X]fnX?Y0mBbF7P<WNjNhA2
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14

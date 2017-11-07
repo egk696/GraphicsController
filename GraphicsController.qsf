@@ -1,0 +1,168 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 10.0 Build 218 06/27/2010 SJ Full Version
+# Date created = 14:30:06  March 14, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		GraphicsController_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY vga_demo_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 10.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:30:06  MARCH 14, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION "16.1.0 Lite Edition"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PROJECT_IP_REGENERATION_POLICY ALWAYS_REGENERATE_IP
+set_global_assignment -name FLOW_ENABLE_RTL_VIEWER ON
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_location_assignment PIN_AB28 -to EN
+set_location_assignment PIN_M23 -to RST
+set_location_assignment PIN_Y2 -to CLK
+set_location_assignment PIN_E12 -to VGA_R[0]
+set_location_assignment PIN_E11 -to VGA_R[1]
+set_location_assignment PIN_D10 -to VGA_R[2]
+set_location_assignment PIN_F12 -to VGA_R[3]
+set_location_assignment PIN_G10 -to VGA_R[4]
+set_location_assignment PIN_J12 -to VGA_R[5]
+set_location_assignment PIN_H8 -to VGA_R[6]
+set_location_assignment PIN_H10 -to VGA_R[7]
+set_location_assignment PIN_G8 -to VGA_G[0]
+set_location_assignment PIN_G11 -to VGA_G[1]
+set_location_assignment PIN_F8 -to VGA_G[2]
+set_location_assignment PIN_H12 -to VGA_G[3]
+set_location_assignment PIN_C8 -to VGA_G[4]
+set_location_assignment PIN_B8 -to VGA_G[5]
+set_location_assignment PIN_F10 -to VGA_G[6]
+set_location_assignment PIN_C9 -to VGA_G[7]
+set_location_assignment PIN_B10 -to VGA_B[0]
+set_location_assignment PIN_A10 -to VGA_B[1]
+set_location_assignment PIN_C11 -to VGA_B[2]
+set_location_assignment PIN_B11 -to VGA_B[3]
+set_location_assignment PIN_A11 -to VGA_B[4]
+set_location_assignment PIN_C12 -to VGA_B[5]
+set_location_assignment PIN_D11 -to VGA_B[6]
+set_location_assignment PIN_D12 -to VGA_B[7]
+set_location_assignment PIN_A12 -to VGA_CLK
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_VSYNC -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_BLANK -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[0] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[1] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[2] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[3] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[4] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[5] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[6] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_B[7] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_CLK -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[0] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[1] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[2] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[3] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[4] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[5] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[6] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_G[7] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_HSYNC -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[0] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[1] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[2] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[3] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[4] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[5] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[6] -section_id VGA
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_R[7] -section_id VGA
+set_location_assignment PIN_F11 -to VGA_BLANK
+set_location_assignment PIN_G13 -to VGA_HSYNC
+set_location_assignment PIN_C13 -to VGA_VSYNC
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER VGA_SYNC -section_id VGA
+set_location_assignment PIN_C10 -to VGA_SYNC
+set_location_assignment PIN_AC28 -to SEL[0]
+set_location_assignment PIN_AC27 -to SEL[1]
+set_global_assignment -name POWER_DEFAULT_TOGGLE_RATE 12.5%
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE 12.5%
+set_global_assignment -name VHDL_FILE ../Codebase/SPI/SPI_Slave.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/system_config_pack.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/primitive_mem_painter.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/microcode_pack.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/Utilities/sincos_lut_rom.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/Utilities/math_pack.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/circle_painter.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/vga_generator.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/rect_painter.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/vga_demo_top.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/vga_settings_rom.vhd
+set_global_assignment -name VHDL_FILE ../Codebase/VGA_Controller/vga_pack.vhd
+set_global_assignment -name QIP_FILE vga_pll.qip
+set_global_assignment -name QIP_FILE vga_pll_108.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_VSYNC
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_BLANK
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_B[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_G[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_HSYNC
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to VGA_R[7]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,38 @@
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_TOOL_VERSION "16.1"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "FrameBuffer" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../FrameBuffer.sopcinfo"]
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name SLD_INFO "QSYS_NAME FrameBuffer HAS_SOPCINFO 1 GENERATION_ID 1489575483"
+set_global_assignment -library "FrameBuffer" -name MISC_FILE [file join $::quartus(qip_path) "../FrameBuffer.cmp"]
+set_global_assignment -library "FrameBuffer" -name SLD_FILE [file join $::quartus(qip_path) "FrameBuffer.debuginfo"]
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_TARGETED_DEVICE_FAMILY "Cyclone IV E"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "FrameBuffer" -name MISC_FILE [file join $::quartus(qip_path) "../FrameBuffer.qsys"]
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_NAME "RnJhbWVCdWZmZXI="
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_DISPLAY_NAME "RnJhbWVCdWZmZXI="
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTQ4OTU3NTQ4Mw==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::RVA0Q0UxMTVGMjlDNw==::QXV0byBERVZJQ0U="
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "FrameBuffer" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_NAME "RnJhbWVCdWZmZXJfc3JhbV8w"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_DISPLAY_NAME "U1JBTS9TU1JBTSBDb250cm9sbGVy"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIFVuaXZlcnNpdHkgUHJvZ3JhbQ=="
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_VERSION "MTYuMQ=="
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_DESCRIPTION "U1JBTS9TU1JBTSBDb250cm9sbGVyIGZvciBERS1zZXJpZXMgQm9hcmRz"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "Ym9hcmQ=::REUyLTExNQ==::REUtU2VyaWVzIEJvYXJk"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "cGl4ZWxfYnVmZmVy::dHJ1ZQ==::VXNlIGFzIGEgcGl4ZWwgYnVmZmVyIGZvciB2aWRlbyBvdXQ="
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBJViBF::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "FrameBuffer_sram_0" -library "FrameBuffer" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::MA==::QXV0byBDTE9DS19SQVRF"
+
+set_global_assignment -library "FrameBuffer" -name VHDL_FILE [file join $::quartus(qip_path) "FrameBuffer.vhd"]
+set_global_assignment -library "FrameBuffer" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/FrameBuffer_sram_0.v"]
